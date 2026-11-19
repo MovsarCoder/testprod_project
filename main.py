@@ -14,3 +14,7 @@ def health():
     return {"status": "ok"}
 
 
+@app.get('/greet')
+def greet():
+    return {"message": "Привет из деплоя!!!!"}
+
